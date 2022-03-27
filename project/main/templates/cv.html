@@ -1,0 +1,129 @@
+
+
+{% extends 'base.html '%}
+{% load static %}
+
+
+
+{% block content %}
+    
+   
+    <!-- Hero-->
+    <section id="hero" class=" text-dark text-center py-5 text-lg-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-center" >
+                <div class="py-3">
+                    <h1 class="display-5"> Hi <span class="text-info"> sumaiya is here  </span></h1>
+                    <p class="py-1 lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste sunt aliquam temporibus rem cumque accusamus impedit ipsa quibusdam voluptas maxime, tempore expedita eum amet praesentium architecto? Eaque consequuntur nulla maiores et animi nesciunt eius adipisci ullam dolores sequi? Illum delectus fugiat ab nulla fuga eligendi incidunt voluptate aliquid ipsum in.</p>
+                    <a herf="" > <button class="btn btn-info"> Download CV </button></a> 
+                </div>
+                <img class="img-fluid w-50" src="{% static 'img/main.svg' %}" alt="">
+            </div>
+        </div>
+
+    </section>
+    <!-- project -->
+    <section class="py-5 bg-light ">
+        
+        <div class="container py-4">
+           
+               
+                <h3 class="display-5"> Here what i do: </h3>
+           
+            <div class="row text-center align-items-center justify-content-center">
+                <div class=" col col-sm ">
+                    <div class="card bg-light" style="width: 18rem;">
+                        <img src="{% static 'img/blog.svg' %}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text py-1 text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <button class="btn btn-info"> see more</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col col-sm">
+                    <div class="card bg-light" style="width: 18rem;">
+                        <img src="{% static 'img/ecommerce.svg' %}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text py-1 text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <button class="btn btn-info"> see more</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col col-sm">
+                    <div class="card bg-light" style="width: 18rem;">
+                        <img src="{% static 'img/ecommerce.svg' %}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text py-1 text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <button class="btn btn-info"> see more</button>
+                        </div>
+                      </div>
+                </div>
+               
+            </div>
+        </div>
+
+    </section>
+    <!-- blog -->
+
+
+    <!-- contact me -->
+    <section id="contact me" class="py-4">
+        
+        <div class="container">
+            <div class="p-5">
+                <h3 class="display-5"> CONTACT ME</h3>
+                <h3> We can reach each other here :</h3>
+            </div>
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md">
+                    <img style="width:600px;"  src="{% static 'img/social.svg' %} " alt="">
+                </div>
+                <div class="col-md py-5">
+                  
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a
+                            class="btn btn-primary btn-lg btn-floating"
+                            style="background-color: #003566;"
+                            href="#!"
+                            role="button"
+                            ><i class="fab fa-instagram"></i
+                          > </a></i></li>
+                        <li class="list-group-item"><li class="list-group-item"><a
+                            class="btn btn-primary btn-lg btn-floating"
+                            style="background-color: #003566;"
+                            href="#!"
+                            role="button"
+                            ><i class="fab fa-twitter"></i
+                          ></a></i></li>
+                        <li class="list-group-item"><li class="list-group-item"><a
+                            class="btn btn-primary btn-lg btn-floating"
+                            style="background-color: #003566;"
+                            href="#!"
+                            role="button"
+                            ><i class="fab fa-github"></i
+                          ></a></i></li>
+                        <li class="list-group-item"><li class="list-group-item"><a
+                            class="btn btn-primary btn-lg btn-floating"
+                            style="background-color: #003566;"
+                            href="#!"
+                            role="button"
+                            ><i class="fab fa-google"></i
+                          ></a></i></li>
+                        <li class="list-group-item"><li class="list-group-item"><a
+                            class="btn btn-primary btn-lg btn-floating"
+                            style="background-color: #003566;"
+                            href="#!"
+                            role="button"
+                            ><i class="fab fa-linkedin-in"></i
+                          ></a></i></li>
+                      </ul>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+   
+
+    
+{% endblock %}

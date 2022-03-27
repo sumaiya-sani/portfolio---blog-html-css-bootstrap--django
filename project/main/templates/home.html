@@ -1,0 +1,90 @@
+
+{% extends 'base.html '%}
+{% load static %}
+
+
+
+{% block content %}
+
+<!-- hero -->
+
+<section id="hero" class=" text-dark text-center py-5 text-lg-start">
+    <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-center" >
+            <div class="py-3">
+                <h1 class="display-5"> Hi <span class="text-warning"> sumaiya is here  </span></h1>
+                <p class="py-1 lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste sunt aliquam temporibus rem cumque accusamus impedit ipsa quibusdam voluptas maxime, tempore expedita eum amet praesentium architecto? Eaque consequuntur nulla maiores et animi nesciunt eius adipisci ullam dolores sequi? Illum delectus fugiat ab nulla fuga eligendi incidunt voluptate aliquid ipsum in.</p>
+                <button class="btn btn-info"> Download CV </button>
+            </div>
+            <img class="img-fluid w-50" src="{% static 'img/main.svg' %}" alt="">
+        </div>
+    </div>
+
+</section>
+
+
+<section class="introdection ">
+    <div class="container mt-5">
+    <h1 class="display-4">
+        last post  
+    </h1>
+    <p class="fs-3 fw-light text-muted">
+        my job 
+    </p>
+    <div class="row align-item-center">
+        <div class="col-lg-6">
+            <img src="{% static 'img/blog_inter/flower.jpg' %}" class="img-fluid rounded ">
+
+        </div>
+        <div class="col-lg-6 mt-lg-0 mt-5">
+            <h3> About </h3>
+            <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, eius laboriosam. Aspernatur voluptatem odit, pariatur quasi numquam, ratione vel sint ipsum cumque, praesentium eius sed cum non fuga doloribus impedit vero voluptatibus tempora consequatur necessitatibus? Fuga aspernatur qui at, error adipisci obcaecati asperiores, commodi doloremque animi eaque consectetur explicabo veniam. </p>
+        </div>
+    </div>
+
+
+    </div>
+
+</section>
+    <section class="feature bg-light">
+        <div class="container">
+            <h3 class="mt-5 mb-3 py-5"> Feature post</h3>
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <figure class="figure">
+                        <img src="{% static 'img/blog_inter/plant.jpg' %}" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                        <a class="btn btn-primary btn-sm" href="#" role="button"> Read more</a>
+
+                      </figure>
+
+                </div> 
+                <div class="col-lg-3 col-6">
+                    <figure class="figure">
+                        <img src="{% static 'img/blog_inter/plant.jpg' %}" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                      </figure>
+
+                </div> 
+                <div class="col-lg-3 col-6">
+                    <figure class="figure">
+                        <img src="{% static 'img/blog_inter/plant.jpg' %}" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                      </figure>
+
+                </div> 
+               <div class="col-lg-3 col-6">
+                    <figure class="figure">
+                        <img src="{% static 'img/blog_inter/plant.jpg' %}" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                      </figure>
+
+                </div> 
+
+
+            </div>
+        </div>
+
+    </section>
+
+    {% endblock %}
